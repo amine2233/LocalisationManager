@@ -1,0 +1,11 @@
+framework module LocalisationManager {
+  umbrella header "LocalisationManager.h"
+
+  export *
+  module * { export * }
+}
+
+module LocalisationManager.Swift {
+    header "LocalisationManager-Swift.h"
+    requires objc
+}
