@@ -32,7 +32,12 @@ timeline.xctimeline
 playground.xcworkspace
 
 ## Swift Package Manager
-.build/
+.build
+.swiftpm
+*.xcodeproj
+
+# Other files
+core
 
 ## CocoaPods
 Pods/
